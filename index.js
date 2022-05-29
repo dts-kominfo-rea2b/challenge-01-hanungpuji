@@ -13,19 +13,19 @@ function removeDuplicate(data){
 
 let dataFirstUserFavoriteColor = ["Yellow", "Pink", "White", "Purple"];
 
-let firstUserFavoriteColor = removeDuplicate(dataFirstUserFavoriteColor);
+let firstUserFavoriteColor = [...(dataFirstUserFavoriteColor)];
 
 let dataFirstUserFavoriteRestaurant = ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"];
 
-let firstUserFavoriteRestaurant = removeDuplicate(dataFirstUserFavoriteRestaurant);
+let firstUserFavoriteRestaurant = [...removeDuplicate(dataFirstUserFavoriteRestaurant)];
 
 let dataSecondUserFavoriteColor = ["Blue", "Black", "Grey"];
 
-let secondUserFavoriteColor = removeDuplicate(dataSecondUserFavoriteColor);
+let secondUserFavoriteColor = [...removeDuplicate(dataSecondUserFavoriteColor)];
 
 let dataSecondUserFavoriteRestaurant = ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"];
 
-let secondUserFavoriteRestaurant = removeDuplicate(dataSecondUserFavoriteRestaurant);
+let secondUserFavoriteRestaurant = [...removeDuplicate(dataSecondUserFavoriteRestaurant)];
 
 
 // console.log(firstUserFavoriteColor);
